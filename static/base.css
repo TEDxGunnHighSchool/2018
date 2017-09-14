@@ -47,16 +47,18 @@ ul.nav li {
 ul.nav li:hover {
 }
 ul.nav li a {
-  color: #333;
-  font-weight: 400;
+  color: #707071;
+  font-weight: 200;
+  font-size: 20px;
   text-decoration: none;
+  margin-left: 25px;
 }
 ul.nav li a:link {
-  color: #333;
+  color: #707071;
   text-decoration: none;
 }
 ul.nav li a:visited {
-  color: #333;
+  color: #707071 ;
   text-decoration: none;
 }
 ul.nav li a:hover {
@@ -241,9 +243,19 @@ hr {
   width: 37.5%;
 }
 
+a {
+  font-family: 'HKGroteskLight'; 
+  font-weight: normal; 
+  font-style: normal; 
+}
+
 .paneltext {
+  color: #707071;
   font-size: 24px;
-  padding: 9%;
+  padding:1% 8% 8% 8%;
+  font-family: 'HKGroteskLight'; 
+  font-weight: normal; 
+  font-style: normal;
 }
 
 #lrnmore {
@@ -257,4 +269,15 @@ hr {
   color: #fff;
   background-color: rgb(238, 55, 35);
   padding: 10px;
+}
+
+@font-face {
+  font-family: "Kollektif";
+  src: url("kollektif/Kollektif.ttf") format("truetype");
+}
+
+#mainhdr{
+  color:#000;
+  font-family: "Kollektif";
+  font-size: 32px;
 }
