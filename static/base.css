@@ -214,7 +214,7 @@ red {
   font-weight:bold;
 }
 
-.speakerLineup {
+#speakerinfo {
   line-height: 130%;
 }
 
@@ -287,4 +287,9 @@ a {
 
 .pure-menu-link {
   margin-left: 0!important;
+}
+
+.speaker{
+  text-align: center;
+  padding-top: 10px;
 }
