@@ -281,3 +281,10 @@ a {
   font-family: "Kollektif";
   font-size: 32px;
 }
+.pure-menu-children {
+  margin-left: 25px!important;
+}
+
+.pure-menu-link {
+  margin-left: 0!important;
+}
