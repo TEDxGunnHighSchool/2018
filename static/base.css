@@ -93,7 +93,6 @@ h2 small {
   color:gray;
 }
 .centered {
-  max-width: 500px;
   margin-left: auto;
   margin-right: auto;
   padding: 30px;
@@ -292,4 +291,8 @@ a {
 .speaker{
   text-align: center;
   padding-top: 10px;
+}
+
+.confinfo{
+  font-size: 25px;
 }
